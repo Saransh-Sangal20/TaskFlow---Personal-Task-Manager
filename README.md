@@ -69,20 +69,12 @@ Follow the steps below to run the project locally:
 
 7. **Open the application in your browser**
     ```bash
-    http://localhost:8080/login
+    http://localhost:8080/signup
 
 ---
 
-**Dummy Login Credentials**
-  ```bash
-  username: admin_123
-  email: admin@gmail.com
-  password: admin123
 
-**(The above dummy credentials can be logged in to display dummy tasks for website demo)**
-
-
-## 🧪 Testing
+## Testing
 
 The application has been manually tested to ensure:
 
