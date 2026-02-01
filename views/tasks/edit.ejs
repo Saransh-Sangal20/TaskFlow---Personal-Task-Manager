@@ -1,0 +1,26 @@
+<% layout("layouts/boilerplate.ejs") %>  <!--layout path is relative to views folder-->
+<body>
+    <div class="row">
+        <div class="col-8 offset-2">
+            <h2 class="mb-3">Edit Your Task</h2>
+            <form action="/tasks/<%= oldData._id %>?_method=PUT" method="POST" class="mb-3">
+                <div class="mb-3">
+                    <label for="title" class="form-label">Title</label>
+                     <input type="text" id="title" placeholder="Enter Title" class="form-control" name="title" value="<%= oldData.title %>">
+                </div>
+                <div class="mb-3">
+                    <label for="description" class="form-label">Description</label>
+                    <input type="text" id="description" placeholder="Enter Description" class="form-control" name="description" value="<%= oldData.description %>">
+                </div>
+                <div class="mb-3">
+                    <label for="status" class="form-label">Status</label>
+                    <input type="text" id="status" placeholder="[Pending, In Progress, Completed]" class="form-control" name="status" value="<%= oldData.status %>">
+                </div>
+                <button type="submit" class="btn btn-dark">Update Task</button>
+            </form>
+            <div class="text-center">
+                <h4 class="text-success fst-italic fw-semibold"><i class="fa-solid fa-rotate"></i>“Refine your plan, move closer to your goal.”</h4>
+            </div>
+        </div>    
+    </div>
+</body>

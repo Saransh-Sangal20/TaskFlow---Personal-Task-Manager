@@ -1,0 +1,25 @@
+{
+  "name": "taskflow",
+  "version": "1.0.0",
+  "description": "A simple full-stack Task Management web application using Node.js, Express, MongoDB, and EJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Saransh Sangal",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
+    "ejs": "^4.0.1",
+    "ejs-mate": "^4.0.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^9.1.5"
+  }
+}

@@ -1,0 +1,26 @@
+<% layout("layouts/boilerplate.ejs") %>  <!--layout path is relative to views folder-->
+<body>
+    <div class="row">
+        <div class="col-8 offset-2">
+            <h2 class="mb-3">Add New Task</h2>
+            <form action="/tasks" method="POST" class="mb-3">
+                <div class="mb-3">
+                    <label for="title" class="form-label">Title</label>
+                     <input type="text" id="title" placeholder="Enter Title" class="form-control" name="title">
+                </div>
+                <div class="mb-3">
+                    <label for="description" class="form-label">Description</label>
+                    <input type="text" id="description" placeholder="Enter Description" class="form-control" name="description">
+                </div>
+                <div class="mb-3">
+                    <label for="status" class="form-label">Status</label>
+                    <input type="text" id="status" placeholder="[Pending, In Progress, Completed]" class="form-control" name="status">
+                </div>
+                <button type="submit" class="btn btn-dark">Add Task</button>
+            </form>
+            <div class="text-center">
+                <h4 class="text-primary fst-italic fw-semibold"><i class="fa-solid fa-lightbulb" style="color: #FFD43B;"></i>“What’s the next thing you want to accomplish?”</h4>
+            </div>
+        </div>    
+    </div>
+</body>
