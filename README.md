@@ -69,9 +69,12 @@ Follow the steps below to run the project locally:
 
 7. **Open the application in your browser**
     ```bash
-    http://localhost:8080/login
+    http://localhost:8080/signup
 
-## 🧪 Testing
+---
+
+
+## Testing
 
 The application has been manually tested to ensure:
 
