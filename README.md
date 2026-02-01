@@ -84,3 +84,7 @@ The application has been manually tested to ensure:
 - Tasks are separated based on their status
 - Users can access only their own tasks
 - Application works correctly on different screen sizes
+
+## Testing Tutorial Video
+
+https://github.com/user-attachments/assets/c68571f5-505b-4894-a993-e0010f353031
