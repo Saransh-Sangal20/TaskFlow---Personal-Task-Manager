@@ -225,3 +225,8 @@ app.get("/logout", (req, res) => {
     res.clearCookie("token");
     res.redirect("/login");
 });
+
+// root route
+app.get("/", (req, res) => {
+    res.redirect("/signup");
+});
